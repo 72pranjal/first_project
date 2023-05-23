@@ -1,0 +1,87 @@
+body{
+    background: gray;
+    height: auto;
+    width: 100%;
+    
+}
+.form{
+    text-align: center;
+    border: 2px solid pink;
+    border-radius: 30px;
+
+}
+form{
+    text-align: center;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    background: wheat;
+    height: auto;
+    width: 800px;
+    text-decoration:justify;
+    border: 2px solid;
+    border-radius: 3px;
+    border-style: double;
+    box-shadow: 20px beige;
+    margin: 40px 30px 30px 300px;
+    padding: 30px 50px;
+    text-align: justify;
+    animation: form 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50px;
+    
+}
+@keyframes form{
+    0%{background: rgba(174, 237, 179, 0.522);}
+    50%{background: rgba(225, 184, 191, 0.31);}
+    100%{background: rgba(131, 228, 206, 0.911);}
+}
+.submit{
+    border: 2px solid black;
+    background: violet;
+    height: 50px;
+    width: 20%;
+    animation: submit 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+.submit:hover{
+    background: aqua;
+    height: 100px;
+    width: 50%;
+    font-size: 50px;
+    animation: submit 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes submit{
+    0%{background: rgba(10, 212, 27, 0.522);}
+    50%{background: rgba(241, 83, 109, 0.31);}
+    100%{background: rgba(223, 90, 12, 0.911);}
+}
+
+.reset{
+    border: 2px solid black;
+    background: red;
+    height: 50px;
+    width: 20%;
+    animation: data 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes data{
+    0%{background: rgba(216, 26, 26, 0.522);}
+    50%{background: rgba(39, 204, 17, 0.31);}
+    100%{background: rgba(13, 32, 154, 0.538);}
+}
+.reset:hover{
+    background: rgb(231, 79, 8);
+    height: 100px;
+    width: 50%;
+    font-size: 50px;
+    animation: data 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
